@@ -1,34 +1,34 @@
 # My dotfiles
 
-This directory contains the dotfiles for my system
+This directory contains the dotfiles for my system.
 
 ## Requirements
 
-Ensure you have the following installed on your system
+Ensure you have the following installed on your system:
 
 ### Git
 
-```
+```bash
 pacman -S git
 ```
 
 ### Stow
 
-```
+```bash
 pacman -S stow
 ```
 
 ## Installation
 
-First, check out the dotfiles repo in your $HOME directory using git
+First, check out the dotfiles repo in your $HOME directory using git:
 
-```
-$ git clone git@github.com/dreamsofautonomy/dotfiles.git
-$ cd dotfiles
+```bash
+git clone git@github.com/dreamsofautonomy/dotfiles.git
+cd dotfiles
 ```
 
-then use GNU stow to create symlinks
+Then, use GNU stow to create symlinks:
 
-```
-$ stow .
+```bash
+stow .
 ```
