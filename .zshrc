@@ -69,7 +69,7 @@ fi
 setopt auto_cd
 
 #export PATH="/usr/local/opt/curl/bin:$PATH"
-export PATH="$PATH:/home/elliott/Library/flutter/bin"
+export PATH="$PATH:$HOME/Library/flutter/bin"
 
 alias sudo='sudo '
 export LD_LIBRARY_PATH=/usr/local/lib
@@ -94,7 +94,7 @@ export NVM_SOURCE="/usr/share/nvm"                     # The AUR package install
 bindkey "^P" up-line-or-beginning-search
 bindkey "^N" down-line-or-beginning-search
 
-[ -s "/home/elliott/.svm/svm.sh" ] && source "/home/elliott/.svm/svm.sh"
+[ -s "$HOME/.svm/svm.sh" ] && source "$HOME/.svm/svm.sh"
 
 # Capslock command
 alias capslock="sudo killall -USR1 caps2esc"
